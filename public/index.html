@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repositories </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-header">
+            <h3 class="card-title">Github Repositories</h3>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <form autocomplete="off">
+                <div class="form-group">
+                    <label for="repository">Repository</label>
+                    <input type="text" class="form-control" id="repository" placeholder="Type here the repository name" autofocus="required">
+                    <small id="repositoryHelp" class="form-text text-muted">Type the repository name to plus it.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action">
+                <img src="https://avatars0.githubusercontent.com/u/8083459?v=4">
+                <strong>NerdFonts</strong>
+                <p>Iconing font aggregator, collection and patcher</p>
+                <a target="_blank" href="https://github.com/ryanoasis/nerd-fonts">Acess</a>
+            </li>
+        </ul>
+    </div>
+    <script src="bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
